@@ -1,0 +1,1 @@
+Blog project for practicing HTML, CSS and JavaScript. 
