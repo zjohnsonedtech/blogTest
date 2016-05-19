@@ -3,11 +3,11 @@ GENERAL
 ***********************************************/
 
 body{
-	font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 a {
- text-decoration: none;
+ 
 }
 
 img {
@@ -26,10 +26,10 @@ h3 {
 Heading
 ***********************************************/
 
-body {
+header {
 	text-align: center;
 	float: left;
- 	margin: 50px 0 30px 0;
+ 	margin: 10px 0 30px 0;
  	padding: 5% 0 0 0;
   	width: 100%;
 }
@@ -51,6 +51,11 @@ h2 {
 Articles
 ***********************************************/
 
+article {
+  width: 80%;
+  margin: 5% 5%;
+  padding: 10px 10px;
+}
 
 /***********************************************
 Navigation
@@ -82,7 +87,7 @@ footer {
 
 .social-icon {
 
-}
+
 
 
 
