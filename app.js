@@ -3,6 +3,7 @@ var main = function(){
 	$('.hide').hide();
 
 	$('.expand').click(function(){
+		$('.article').removeClass('current');
 		$(this).parentsUntil('.blogPost').addClass('current');
 		
 		
