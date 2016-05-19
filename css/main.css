@@ -3,23 +3,13 @@ GENERAL
 ***********************************************/
 
 body{
-
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a {
- 
+ text-decoration: none;
 }
 
-img {
-  
-}
-
-#wrapper {
-
-
-h3 {
-
-}
 
 
 /***********************************************
@@ -27,11 +17,16 @@ Heading
 ***********************************************/
 
 header {
-
+  float: left;
+  margin: 0 0 10px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
 }
 
-#logo {
 
+#logo {
+  text-align: center;
+  margin: 0;
 }
 
 h1 {
@@ -42,25 +37,64 @@ h2 {
 
 }
 
+/***********************************************
+Articles
+***********************************************/
+article {
+  clear: both;
+  margin: 0 0 30px 0;
+  padding: 2% 10% ;
+  width: 80%;
+}
+
+.title {
+	text-align: center;
+}
+
+.excerpt {
+	text-align: center;
+}
+
+.post {
+	padding: 10px;
+}
+
+.button {
+	text-align: center;
+	display: inline-block;
+	background-color: #4CAF50;
+	padding: 5px 25px;
+	border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 
 
 /***********************************************
 Navigation
 ***********************************************/
-
 nav {
- 
+  text-align: center;
+  padding: 10px 0; 
+  margin: 28px 0;
 }
 
 nav ul {
-
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
 
 nav li {
-
+  display: inline-block;
 }
 
 nav a {
- 
+  font-weight: bold;
+  padding: 15px 10px;
 }
 
 
@@ -74,49 +108,7 @@ footer {
 
 .social-icon {
 
-
-
-/***********************************************
-Page: Portfolio 
-***********************************************/
-
-#gallery {
-
 }
-
-#gallery li {
- 
- 
-}
-
-#gallery li a p {
-
-}
-
-
-
-/***********************************************
-PAGE: About 
-***********************************************/
-
-.profile-photo {
- 
-}
-
-
-
-/***********************************************
-PAGE: Contact 
-***********************************************/
-
-.contact-info {
-
-}
-
-.contact-info a {
- 
-}
-
 
 
 
