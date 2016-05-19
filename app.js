@@ -3,10 +3,12 @@ var main = function(){
 	$('.hide').hide();
 
 	$('.expand').click(function(){
-		$('.excerpt').hide();
-		$('.expand').hide();
-		$('.post').show();
-		$('.hide').show();
+		$(this).parentsUntil('.blogPost').addClass('current');
+		
+		$('.current').children('.excerpt').hide();
+		$('.current').children('.expand').hide();
+		$('.current').children('.post').show();
+		$('.current').children('.hide').show();
 	});
 
 	$('.hide').click(function(){
