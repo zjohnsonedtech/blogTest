@@ -3,17 +3,16 @@ var main = function(){
 	$('.hide').hide();
 
 	$('.expand').click(function(){
-		$('.excerpt').hide();
-		$('.expand').hide();
-		$('.post').show();
-		$('.hide').show();
+		var article = $(this).parent().parent();
+		
+		article.children('div').toggle();
+		
 	});
 
 	$('.hide').click(function(){
-		$('.post').hide();
-		$('.hide').hide();
-		$('.excerpt').show();
-		$('.expand').show();
+		var article = $(this).parent().parent();
+		
+		article.children('div').toggle();
 	});
 
 
