@@ -1,19 +1,20 @@
 var main = function(){
 	$('.post').hide();
-	$('#hide').hide();
+	$('.hide').hide();
 
-	$('#expand').click(function(){
-		$('.excerpt').hide();
-		$('#expand').hide();
-		$('.post').show();
-		$('#hide').show();
+	$('.expand').click(function(){
+		var article = $(this).parent().parent();
+		
+		article.children('.excerpt, .post').toggle();
+		article.children().children('.expand, .hide').toggle();
+		
 	});
 
-	$('#hide').click(function(){
-		$('.post').hide();
-		$('#hide').hide();
-		$('.excerpt').show();
-		$('#expand').show();
+	$('.hide').click(function(){
+		var article = $(this).parent().parent();
+		
+		article.children('.excerpt, .post').toggle();
+		article.children().children('.expand, .hide').toggle();
 	});
 
 
