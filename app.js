@@ -5,14 +5,14 @@ var main = function(){
 	$('.expand').click(function(){
 		var article = $(this).parent().parent();
 		
-		article.children('div').toggle();
+		article.children('.excerpt, .post, .expand, .hide').toggle();
 		
 	});
 
 	$('.hide').click(function(){
 		var article = $(this).parent().parent();
 		
-		article.children('div').toggle();
+		article.children('.excerpt, .post, .expand, .hide').toggle();
 	});
 
 
