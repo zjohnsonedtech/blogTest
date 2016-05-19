@@ -3,7 +3,7 @@ var main = function(){
 	$('.hide').hide();
 
 	$('.expand').click(function(){
-		$(this).parentsUntil(.blogPost).addClass('current');
+		$(this).parentsUntil('.blogPost').addClass('current');
 		
 		
 		$('.current').children('.excerpt').hide();
@@ -18,7 +18,7 @@ var main = function(){
 		$('.current').children('.excerpt').show();
 		$('.current').children('.expand').show();
 		
-		$(this).parentsUntil(.blogPost).removeClass('current');
+		$(this).parentsUntil('.blogPost').removeClass('current');
 	});
 
 
