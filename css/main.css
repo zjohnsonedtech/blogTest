@@ -70,7 +70,7 @@ Articles
 article {
   clear: both;
   margin: 0 0 30px 0;
-  padding: 2% 10% ;
+  padding: 5% 10% ;
   width: 80%;
 }
 
@@ -108,7 +108,7 @@ Footer
 ***********************************************/
 
 footer {
-
+  text-align: center;
 }
 
 .social-icon {
